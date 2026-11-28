@@ -22,6 +22,9 @@
   - «голос девушки» → Piper **«Ирина»** (`ru_RU-irina-medium`, та же папка на huggingface: `.../ru_RU/irina/medium`);
   - «голос мальчика / мужской» → Piper **«Дмитрий»** (`ru_RU-dmitri-medium`);
   - не сказано → «Дмитрий» (по умолчанию). Концовка-реклама — тем же голосом, что и ролик.
+  - «озвучка на английском» → Piper **«Joe»** (`en_US-joe-medium`, CC0, `.../en/en_US/joe/medium`),
+    темп 0.95; весь текст на экране, субтитры и концовка — тоже на английском. Не брать Ryan (запрет
+    коммерции). Другие разрешённые: John, Norman (public domain).
 - **Озвучка: Piper, голос «Дмитрий»** (`ru_RU-dmitri-medium`, лицензия датасета CC0), выбран владельцем
   канала. Установка: `pip install piper-tts`, модель с huggingface.co
   (`rhasspy/piper-voices/ru/ru_RU/dmitri/medium`). Темп `--length-scale 0.92`. Озвучивать по фразам,
